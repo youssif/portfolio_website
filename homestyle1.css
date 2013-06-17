@@ -1,0 +1,411 @@
+/*nav.left{
+	float:left;
+}*/
+
+
+nav{
+	margin-top: -20px;
+	margin-right: -10px;
+	margin-left: -10px;
+	background-color: black;
+	float: left;
+	padding-left: 90px;
+	padding-right: 70px;
+	width: 1188px;
+	height: 155px;
+}
+
+div.nav_wrap{
+	width: 1250px;
+	float: right;
+	margin-top: 10px;
+	padding-top: 0px;
+	margin-right:0px;
+	display: block;
+
+}
+
+span{
+	display: inline-block;
+	margin-right: 30px;
+    padding-right: 100px;
+    margin-top: 24px;
+	text-align: center;
+	color: white;
+	float: left;
+	margin-left: 90px;
+	font-size: 79px;
+	color: white;
+}
+
+a.title{
+	text-decoration: none;
+	color: white;
+	padding-left: 40px;
+}
+
+a.title:visited{
+	text-decoration: none;
+	color: inherit;
+}
+
+/*a.title:hover{
+	color: #38EE3D;
+}*/
+
+div{
+	padding-left: 10px;
+	padding-right:10px;
+	padding-top: -100px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+	width: 155px;
+	height: 95px;
+	text-align: center;
+	border: 15px;
+	font-family: 'Stint Ultra Condensed', times;
+	font-size: 40px;
+}
+
+div.title{
+	padding-bottom: 20px;
+}
+
+div.twitter_link{
+	float: left;
+	background-color: 3CA6D2;
+	border-color: 34AECB;
+	color: white;
+	float: left;
+	font-size: 28px;
+	padding-top: 25px;
+	height: 70px;
+	border: 0 solid #1490C4;
+	transition: border 0.1s ease-in-out;
+	margin-left: 60px; 
+}
+
+div.twitter_link:hover{
+	border: 10px solid #1490C4;
+	transition: border 0.25s ease-in-out;
+}
+
+div.blog{
+	float: left;
+	background-color: 25B440;
+	border-color: 1DB33A;
+	color: white;
+	border: 0 solid #0B9827;
+	transition: border 0.1s ease-in-out;
+}
+
+div.blog:hover{
+	border: 10px solid #0B9827;
+	transition: 0.25s;
+}
+
+div.projects{
+	float: left;
+	background-color: E07728;
+	border-color: E26E17;
+	color: white;
+	border: 0 solid #D15814;
+	transition: border 0.1s;
+}
+
+div.projects:hover{
+	border: 10px solid #D15814;
+	transition: 0.25s;
+
+}
+
+div.profile{
+	float: left;
+	background-color: A31A16;
+	border-color: 9C2013;
+	color: white;
+	border: 0 solid #690C06;
+	transition: border 0.1s ease-in-out;
+}
+
+div.profile:hover{
+	border: 10px solid #690C06;
+	transition: 0.25s;
+}
+
+div.bottom_page{
+	width: 1248px;
+	float: left;
+	margin-left: -9px;
+	margin-bottom: -10px;
+	margin-top: 200px;
+	height: 85px;
+	background-color: black;
+	padding-left: 0px;
+	padding-right: 99px;
+	box-shadow: 0px 0px 3px;
+}
+
+div.bottom_page#profile{
+	margin-top: -233px;
+}
+
+/*------------------NAVIGATION BAR END-----------------------*/
+
+/*------------------  PROFILE PAGE CSS ------------------------*/
+
+body{
+	background-color: #E6E4DB;
+}
+
+img{
+	height: 200;
+	width: auto%;
+	display: block;
+	margin-top: -710px;
+	margin-left: 313px;
+	box-shadow: 0px 0px 3px;
+}
+
+div.welcome{
+	margin-left: 36px;
+	padding-top: 20px;
+	margin-top: 50px;
+	float: left;
+	padding-right: 1098px;
+	font-size: 100px;
+	padding-bottom: 340px;
+}
+
+/*hr.title{
+	height: 200;
+	width: auto%;
+	display: block;
+	margin-top: -697px;
+	margin-left: 300px;
+	box-shadow: 0px 0px 3px;
+}*/
+
+h1.welcome_header{
+	display: block;
+	margin-top: 0px;
+	text-align: center;
+	margin-left: 0px;
+	width: 1243px;
+	font-size: 140px;
+}
+
+h1.welcome_subheader{
+	display: block;
+	margin-top: -89px;
+	text-align: center;
+	margin-left: 0px;
+	width: 1243px;
+	font-size: 190px	
+}  
+
+div.image_card{
+	margin-left: -8px;
+	padding-top: 774px;
+	padding-bottom: 400px;
+	float: left;
+	padding-right: 1180px;
+	margin-top: 70px;
+	background-color: rgba(62, 131, 117, 0.76);
+	box-shadow: 0px 0px 3px;
+}
+
+div.my_story{
+	margin-left: 30px;
+	padding-top: 220px;
+	margin-top: -230px;
+	float: left;
+	padding-right: 1098px;
+}
+
+h2.my_story_header{
+	display: block;
+	margin-top: -1132px;
+	text-align: center;
+	margin-left: 65px;
+	width: 1243px;
+	font-size: 100px;
+}
+
+p.my_story{
+	margin-top: -9px;
+	margin-left: 188px;
+	width: 800px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 10px;
+	padding-bottom: 100px;
+}
+
+div.contact{
+	width: 1080px;
+	border: 2 px solid red;
+	float: left;
+	margin-bottom: 123px;
+	margin-top: -133px;
+	margin-left: -8px;
+	padding-left: 241px;
+	padding-top: 174px;
+}
+
+h2.contact_header{
+	margin-top: -147px;
+}
+
+
+/*------------------  PROJECTS PAGE CSS ------------------------*/
+
+div.project_welcome{
+	margin-left: -5px;
+	padding-top: 87px;
+	margin-top: 0px;
+	float: left;
+	padding-right: 1165px;
+	font-size: 100px;
+	padding-bottom: 573px;
+/*	box-shadow: 0px 0px 3px;  <- how to fix???*/
+}
+
+h1.project_header{
+	display: block;
+	margin-top: 0px;
+	text-align: center;
+	margin-left: 49px;
+	width: 1243px;
+	font-size: 220px;
+}
+
+h1.project_subheader{
+	display: block;
+	margin-top: -154px;
+	text-align: center;
+	margin-left: 49px;
+	width: 1243px;
+	font-size: 121px;	
+}  
+
+h1.project_sub_subheader{
+	display: block;
+	margin-top: -72px;
+	text-align: center;
+	margin-left: 49px;
+	width: 1243px;
+	font-size: 99px;	
+} 
+
+div.project_grid{
+	margin-left: -9px;
+	padding-top: 87px;
+	margin-top: 1px;
+	float: left;
+	padding-right: 1182px;
+	font-size: 100px;
+	padding-bottom: 605px;
+	background-color: orange;
+	box-shadow: 0px 0px 3px;
+}
+
+img.reddit{
+	float: left;
+	display: block;
+	margin-top: -27px;
+	margin-left: 137px;
+	height: 300px;
+	width: auto;
+	transition: opacity 0.1s ease-in-out;
+}
+
+img.reddit:hover{
+	opacity: 0.4;
+	transition: 0.25s;
+}
+
+img.facebook{
+	float: left;
+	display: inline-block;
+	margin-top: -301px;
+	margin-left: 721px;
+	width: 470px;
+	height: 300px;
+	transition: opacity 0.1s ease-in-out;
+
+}
+
+img.facebook:hover{
+	opacity: 0.4;
+	transition: 0.25s;
+}
+
+img.twitter{
+	float: left;
+	display: inline-block;
+	margin-top: -301px;
+	margin-left: 721px;
+	width: 470px;
+	height: 300px;
+	transition: opacity 0.1s ease-in-out;
+
+}
+
+img.twitter:hover{
+	opacity: 0.4;
+	transition: 0.25s;
+	
+}
+
+img.newyorker{
+	float: left;
+	display: block;
+	margin-top: 69px;
+	margin-left: 137px;
+	height: 300px;
+	width: 465px;
+	transition: opacity 0.1s ease-in-out;
+
+}
+
+img.newyorker:hover{
+	opacity: 0.4;
+	transition: 0.25s;
+	
+}
+
+a.project_link{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+a.visited{
+	text-decoration: none;
+	color: black;
+}
+
+div.experience{
+	float: left;
+	background-color: rgba(197, 30, 30, 0.73);
+	width: 1076px;
+	margin-left: -10px;
+	padding-right: 139px;
+	margin-top: 1px;
+	box-shadow: 0px 0px 3px;
+	padding-left: 134px;
+	padding-bottom: 700px;
+	padding-top: 39px;
+	margin-bottom: -200px;
+}
+
+
+
+
+
+
+
+
+

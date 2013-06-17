@@ -1,0 +1,48 @@
+nav{
+	float: right;
+	margin-right: 20px
+}
+
+h1{
+	margin-right: 40px;
+}
+
+div{
+	padding-left: 10px;
+	padding-right:10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+div:hover{
+}
+
+h1{
+	float:left;
+}
+
+div.twitter_link{
+	float: left;
+}
+
+div.twitter_link:hover{
+	margin-top: 500px;
+	border: 10px solid red;
+}
+
+a:hover{
+	margin-top: 500px;
+}
+
+div.blog{
+	float: left;
+}
+
+div.projects{
+	float: left;
+}
+
+div.profile{
+	float: left;
+}
+
